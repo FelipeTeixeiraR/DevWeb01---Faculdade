@@ -3,43 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hobbie_nome_sobrenome</title>
+    <title>HobbiesFelipe.T</title>
+    <link rel="icon" href="https://img.icons8.com/?size=16&id=fkXojbEAWAzS&format=png" type="image/x-icon">
+
     
 </head>
-<body>
-    <img id="img" src="https://th.bing.com/th/id/OIP.H2ppLobOE1fAfF0F4fxYrgHaDv?w=309&h=180&c=7&r=0&o=5&pid=1.7" alt="">
-    <h1>Jogar</h1>
-    <p>Um hobbie comum entre os jovens de hoje em dia.</p>
-    <i>principalmente os que estão alinhados a area de informatica</i>
-    <p><b>jogo principalmente no computador</b></p>
-    <ul>Os Principais jogos que eu jogo são:
-        <li>Celeste</li>
-        <li>Hollow Knight</li>
-        <li>Terraria</li>
-    </ul>
-    <ol type="I">Os meus Gêneros de jogos favoritos são:
-        <li>Sandbox</li>
-        <li>RPG</li>
-        <li>FPS</li>
-    </ol>
-    <dl>Jogos de Celular que jogo:</dl>
-    <dt>Clash Royale</dt>
-    <dd>Jogo de estratégia</dd>
-    
-   
+<body >
+    <div class="container">
+        <div class="bloco">
+        <h1 id="center">Hobbies</h1>
+        <h2>Andar de Bicicleta</h2>
+        <img class="imgBike" src="./imgs/faixaBike.png" alt="">
+        <p>andar de <i>bicilcleta</i> é um hobbie bem comum, e um <b>otimo exercicio</b>, ajudando com a saude.
+        Este simples exercicio tamebem pode ajudar a economizar dinheiro, alem de ser uma forma ecologica de locomoção, 
+        o ato de andar de bicilcleta te ajuda e ajuda toda a sociedade.</p>
+        <img class="imgGame" src="./imgs/FaixaGames.png" alt="faixaJogo">
+        <h2>Jogar</h2>
+        <p class="exIten">Principais jogos:</p>
+        <ul>
+            <li>Celeste</li>
+            <img class="celeste" src="./imgs/n.png" alt="">
+            <li>Hollow Knight</li>
+            <img class="hollowKnight" src="./imgs/hollowKnight.png" alt="">
+            <li>Terraria</li>
+            <img class="terraria" src="./imgs/terraria.png" alt="">
+        </ul>
+        <p class="exIten">Gêneros:</p>
+        <ol type="I">
+            <li>Sandbox</li>
+            <li>RPG</li>
+            <li>FPS</li>
+        </ol>
+        <h2>Programar</h2>
+        <img class="programar" src="./imgs/programar.png" alt="">
+        <p>Programo des dos meus 12 anos, principalmente na parte de desenvolvimento de jogos, foi assim que resolvi entrar nesta area.</p>
+        </div>
+        
 
+   </div>
 
    
 
 
     <style>
         body{
-           
-            
             color: white;
             background-color: rgb(25, 25, 25);
         }
-     
+        p{
+            width: 600px;
+            overflow-wrap: break-word;
+        }
+        #center{
+            text-align: center;
+            
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .bloco{
+            padding: 2px;
+            border-radius: 10px;
+        }
+        .imgGame{
+            position: absolute;
+            width: 200px;
+            margin-left: 49px;
+            margin-top: -50px;
+            
+        }
+        .imgBike{
+            width: 200px;
+            position: absolute;
+            margin-top: -97px;
+            margin-left: 180px;
+            
+        }
+        ul, ol{
+            font-size: 20px;
+            
+        }
+        ul, li{
+            margin-bottom: 20px;
+        }
+        .exIten{
+            font-size: 22px;
+        }
+        .celeste{
+            width: 40px;
+            position: absolute;
+            margin-left: 60px;
+            margin-top: -52px;
+
+        }
+        .hollowKnight{
+            width: 40px;
+            position: absolute;
+            margin-left: 123px;
+            margin-top: -52px;
+        }
+        .terraria{
+            width: 40px;
+            position: absolute;
+            margin-left: 70px;
+            margin-top: -52px;
+        }
+        .programar{
+            width: 198px;
+            position: absolute;
+            margin-left: 112px;
+            margin-top: -98px;
+        }
+        
+        
     </style>
 </body>
 </html>
