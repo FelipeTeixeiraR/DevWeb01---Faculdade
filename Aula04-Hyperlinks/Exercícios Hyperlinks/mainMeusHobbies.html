@@ -13,8 +13,12 @@
 
             <ul>
                 <li><a href="./hobbies_bike.html">Andar de Bicicleta</a></li>
+                <img class="imgbike" src="./imgs/bikeFaixa.png" alt="bike">
                 <li><a href="./hobbie_game.html">Jogar</a></li>
+                <img class="gameimg" src="./imgs/gameimg.png" alt="game">
+                
                 <li><a href="./hobbie_program.html">Programar</a></li>
+                <img class="imgprogram" src="./imgs/programImg.png" alt="program">
             </ul>
 
 
@@ -28,11 +32,44 @@
 
 
     <style>
+        .gameimg{
+            
+            position: absolute;
+             filter: brightness(0) invert(1);
+            width: 13%;
+            opacity: 80%;
+            z-index: -1;
+            margin-top: -105px;
+            margin-left: 60px;
+        }
+        .imgprogram{
+            
+            position: absolute;
+             filter: brightness(0) invert(1);
+            width: 15%;
+            opacity: 80%;
+            z-index: -1;
+            margin-top: -115px;
+            margin-left: 100px;
+        }
+        .imgbike{
+            
+            position: absolute;
+             filter: brightness(0) invert(1);
+            width: 15%;
+            opacity: 80%;
+            z-index: -1;
+            margin-top: -115px;
+            margin-left: 210px;
+        }
         ul li{
-            font-size: 25px;
+            
+            font-size: 30px;
             margin-bottom: 32px;
             font-style: normal;
+            font-weight: bold;
         }
+
         a{
             text-decoration: none;
         }
@@ -50,8 +87,11 @@
             
         }
         .bloco{
-            padding: 20%;
+            
+            padding: 0% 20% 10% 20%;
             border-radius: 10px;
+            border: 1px solid rgb(27, 27, 27);
+            border-radius: 8px;
         }
         h1{
             text-align: center;
