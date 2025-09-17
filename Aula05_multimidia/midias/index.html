@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimídia</title>
+</head>
+<body>
+    <div class="container">
+        <div class="bloco">
+            <h1>Multimídias</h1>
+            <p>
+                São diversis tipos de midia, tais como:
+                <ul type="square">
+                    <li>Sites</li>
+                    <li>Videos</li>
+                    <li>Imagens</li>
+                    <li>Audios</li>
+                    <li>Dentre outros</li>
+                </ul>
+            </p>
+            <h2>Incorporando Multimídia a um site</h2>
+            <h3>Tag iframe -</h3>
+            <p>
+                Com essa Tagé possivel incorporar sites, videos e audio.
+            </p>
+            <h4>Incorporar site</h4>
+            <iframe src="http://127.0.0.1:5500/Aula05_multimidia/midias/index.html" width="500px" height="500px"></iframe>
+
+            <h4>Incorporar audio</h4>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/184293828&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/mreddiekrueger" title="Mr. Eddie Krueger" target="_blank" style="color: #cccccc; text-decoration: none;">Mr. Eddie Krueger</a> · <a href="https://soundcloud.com/mreddiekrueger/the-trooper-iron-maiden" title="The Trooper (Iron Maiden)" target="_blank" style="color: #cccccc; text-decoration: none;">The Trooper (Iron Maiden)</a></div>
+            
+            <h4>Incorporar video</h4>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6XGeJwsUP9c?si=VXTTwW7w2xtfPjcT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+            <h2>Tag video</h2>
+            <p>
+                Com a tag video é possivel incorporar videos diretamente no arquivo do video.
+            </p>
+            <video width="570px" poster="./midia/video/Bike.jpg" controls>
+                <source src="./midia/video/_Bike.mp4" type="video/mp4">
+                <source src="./midia/video/Bike.webm" type="video/webm">
+                <source src="./midia/video/Bike.ogv" type="video/ogv">
+            </video>
+
+            <h2>Tag de audio</h2>
+            <p>
+                Com a tag de audio é possivel incorporar audios diretamente no arquivo do audio.
+            </p>
+            <audio preload="metadata" controls>
+                <source src="./midia/audio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
+                <source src="./midia/audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+                <source src="./midia/audio/Hey-Sailor-Letter-Box.wav./" type="audio/wav">
+            </audio>
+            <h2>Tag picture</h2>
+            <p>
+                Com a tag picture é possivel incorporar imagens diretamente no arquivo da imagem
+            </p>
+            
+
+
+        </div>
+    </div>
+           
+            <picture>
+                <source media="(max-width:410px)" srcset="midia/img/bike_110.jpg">
+                <source media="(max-width:720px)" srcset="midia/img/bike_320.jpg">
+                <source media="(max-width:6040px)" srcset="midia/img/bike_640.jpg">
+                <img src="./midia/img/bike_full.jpg" alt="">
+                
+            </picture>
+
+    <style>
+        .seta{
+            font-size: 23px;
+        }
+        img{
+            width: 40%;
+            margin-left: 30%;
+        }
+        a{
+            text-decoration: none;
+        }
+        body{
+            background-color: rgb(12, 12, 12);
+            color: beige;
+        }
+        a{
+            color: cyan;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .bloco{
+            border: 1px solid rgb(27, 27, 27);
+            border-radius: 8px;
+            padding: 0% 20% 10% 20%;
+            border-radius: 10px;
+        }
+        h1{
+            text-align: center;
+            font-size: 60px;
+        }
+        p{
+            margin-left: 0.7%;
+        }
+    </style>
+</body>
+</html>
