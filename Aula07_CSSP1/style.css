@@ -1,0 +1,28 @@
+body{
+    background-color: #92ff9b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    color: #996d2c;
+    background-color: rgb(255, 237, 80);
+    text-align: center;
+}
+h2{
+    background-color: rgb(255, 244, 91);
+    margin-left: 10%;
+    color: rgb(175, 113, 32);
+}
+h3{
+    margin-left: 11%;
+    color: rgb(23, 94, 9);
+}
+p{
+    color: rgb(95, 97, 0);
+    margin-left: 12%;
+    
+    
+}
+ul{
+    margin-left: 12%;
+    color: rgb(102, 54, 0);
+}
