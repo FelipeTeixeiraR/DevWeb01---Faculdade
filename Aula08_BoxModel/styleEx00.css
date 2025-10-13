@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    margin-right: 60px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 30px 30px 30px 30px;
+}
+
+h1 {
+    margin: 150px 0px 150px 0px;
+    background-color: blue;
+    border: 5px dashed yellow;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+p{
+    margin: 30px 30px 30px 30px;
+    border: 1px solid red;
+    padding: 10px 20px 5px 8px;
+}
+
+.bloco{
+    background-color: green;
+    color: red;
+    width: 150px;
+    height: auto;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+     
+    
+}
+
+
+/*1 altere as margens do titulo para 150 pixelsrte de cima e de bvaixoe 150; defina o background azul, defina uma borda amarela pontilhada com 5px de espessura, ater4e opadding para 20px em todas as direçãoes; defina o tamanho do elemento em 200px x 200px. Altere a fonte para times new roman e cor branca.
+
+
+2- Paragrafo: faça ajuste na amrgem 30 px, solida verde, borda 1 px, padding 10px 20px 5px 8px.
+
+
+3- Crie uma div e nomeie chamando de bloco00, Defina a cor verde. omsora 3 paragrados de lorem; Ajusta o tamanho da dic em 150x150 , ajuste a margem , bordas e padding a cor do texto deve ser vermelho, 
+
+*/
