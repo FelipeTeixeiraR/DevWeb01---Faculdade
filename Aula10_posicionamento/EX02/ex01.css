@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(247, 245, 234);
+}
+.titulo{
+    color: rgb(209, 94, 0);
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.subtitulo{
+    color: chartreuse;
+    font-size: 30px;
+}
+.paragrafo{
+    background-color: white;
+    color: rgb(223, 164, 116);
+}

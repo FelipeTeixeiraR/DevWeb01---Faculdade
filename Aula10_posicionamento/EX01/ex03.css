@@ -1,0 +1,297 @@
+body{
+    background-color: rgb(206, 206, 206);
+    margin-left: 45%;
+}
+
+#Titulo{
+    
+    font-size: 40px;
+    margin-left: -40px;
+    
+}
+#ti{
+    color: #00000000;
+    font-size: 40px;
+    position: absolute;
+    left: 60%;
+    margin-top: -70px;
+    transition: color 0.3s ease;
+}
+#italia{
+    border: 1px solid black;
+    width: 150px;
+    transition: transform 0.3s ease;
+    
+    #ifx1{
+        background-color: rgb(2, 184, 93);
+        width: 50px;
+        height: 100px;
+    }
+    #ifx2{
+        position: relative;
+        background-color: white;
+        width: 50px;
+        height: 100px;
+        left: 50px;
+        top: -100px;
+    }
+    #ifx3{
+        position: relative;
+        background-color: rgb(252, 56, 56);
+        width: 50px;
+        height: 100px;
+        margin-left: 100px;
+        margin-top: -200px;
+    }
+}
+#italia:hover{
+    transform: scale(1.2); 
+    
+}
+#italia:hover ~ #ti{
+    color: black;
+}
+#tp{
+    color: #00000000;
+    font-size: 40px;
+    position: absolute;
+    left: 60%;
+    margin-top: -70px;
+    transition: color 0.3s ease;
+}
+#polonia{
+    transition: transform 0.3s ease;
+    border: 1px solid black;
+    width: 150px;
+    #pfx1{
+        background-color: rgb(255, 255, 255);
+        width: 150px;
+        height: 50px;
+    }
+    #pfx2{
+        position: relative;
+        background-color: rgb(243, 38, 38);
+        width: 150px;
+        height: 50px;
+    }
+   
+}
+#polonia:hover{
+    transform: scale(1.2); 
+}
+#polonia:hover ~ #tp{
+    color: black;
+}
+#ta{
+    color: #00000000;
+    font-size: 40px;
+    position: absolute;
+    left: 60%;
+    margin-top: -70px;
+    transition: color 0.3s ease;
+}
+#alemanha{
+    
+    border: 1px solid black;
+    width: 150px;
+    transition: transform 0.3s ease;
+    #afx1{
+        background-color: rgb(0, 0, 0);
+        width: 150px;
+        height: 33.3px;
+    }
+    #afx2{
+        position: relative;
+        background-color: rgb(255, 0, 0);
+        width: 150px;
+        height: 33.3px;
+        
+        
+    }
+    #afx3{
+        position: relative;
+        background-color: rgb(166, 255, 0);
+        width: 150px;
+        height: 33.3px;
+        
+       
+    }
+
+}
+#alemanha:hover{
+    transform: scale(1.2); 
+}
+#alemanha:hover ~ #ta{
+    color: black;
+}
+#tbl{
+    color: #00000000;
+    font-size: 40px;
+    position: absolute;
+    left: 60%;
+    margin-top: -70px;
+    transition: color 0.3s ease;
+}
+#belgica{
+    transition: transform 0.3s ease;
+    border: 1px solid black;
+    width: 150px;
+    #bfx1{
+        background-color: rgb(0, 0, 0);
+        width: 50px;
+        height: 115px;
+    }
+    #bfx2{
+        
+        background-color: rgb(229, 255, 0);
+        width: 50px;
+        height: 115px;
+        margin-left: 50px;
+        margin-top: -115px;
+        
+    }
+    #bfx3{
+        
+        background-color: rgb(255, 49, 49);
+        width: 50px;
+        height: 115px;
+        margin-left: 100px;
+        margin-top: -115px;
+    }
+}
+#belgica:hover{
+    transform: scale(1.2); 
+}
+#belgica:hover ~ #tbl{
+    color: black
+}
+#tin{
+    color: #00000000;
+    font-size: 40px;
+    position: absolute;
+    left: 60%;
+    margin-top: -70px;
+    transition: color 0.3s ease;
+}
+#inglaterra{
+    transition: transform 0.3s ease;
+    border: 1px solid black;
+    width: 150px;
+    #infx1{
+        background-color: rgb(255, 255, 255);
+        width: 150px;
+        height: 100px;
+    }
+    #infx2{
+        position: absolute;
+        background-color: rgb(247, 36, 36);
+        width: 20px;
+        height: 100px;
+        margin-top: -100px;
+        margin-left: 65px;
+        
+       
+    }
+    #infx3{
+        position: absolute;
+        background-color: rgb(247, 36, 36);
+        width: 150px;
+        height: 20px;
+        margin-top: -60px;
+        
+       
+    }
+}
+#inglaterra:hover{
+    transform: scale(1.2); 
+}
+#inglaterra:hover ~ #tin{
+    color: black;
+}
+#ts{
+    color: #00000000;
+    font-size: 40px;
+    position: absolute;
+    left: 60%;
+    margin-top: -70px;
+    transition: color 0.3s ease;
+}
+#suecia{
+    transition: transform 0.3s ease;
+    border: 1px solid black;
+    width: 150px;
+    #sfx1{
+        background-color: rgb(0, 170, 192);
+        width: 150px;
+        height: 100px;
+    }
+    #sfx2{
+        position: absolute;
+        background-color: rgb(233, 247, 36);
+        width: 20px;
+        height: 100px;
+        margin-top: -100px;
+        margin-left: 50px;
+        
+       
+    }
+    #sfx3{
+        position: absolute;
+        background-color: rgb(233, 247, 36);
+        width: 150px;
+        height: 20px;
+        margin-top: -60px;
+        
+       
+    }
+}
+#suecia:hover{
+    transform: scale(1.2); 
+}
+#suecia:hover ~ #ts{
+    color: black;
+}
+#tb{
+    color: #00000000;
+    font-size: 40px;
+    position: absolute;
+    left: 60%;
+    margin-top: -70px;
+    transition: color 0.3s ease;
+}
+#brasil{
+    transition: transform 0.3s ease;
+    border: 1px solid black;
+    width: 150px;
+    #bfx1{
+        background-color: rgb(0, 161, 8);
+        width: 150px;
+        height: 100px;
+    }
+    #bfx2{
+        position: absolute;
+        width:70px;
+        height:70px;
+        background:#e5ff00;
+        margin-top:50px;
+        margin-left:41px; 
+         transform: rotate(-45deg);  
+         margin-top: -85px;
+
+      }
+    #bfx3{
+        position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(46, 95, 255);
+    margin-left: 46px;
+    margin-top: -80px;
+    }  
+}
+#brasil:hover{
+    transform: scale(1.2); 
+}
+#brasil:hover ~ #tb{
+    color: black;
+}
