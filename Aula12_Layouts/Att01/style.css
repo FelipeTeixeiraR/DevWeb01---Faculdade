@@ -1,0 +1,68 @@
+body{
+    background-image: url("./img/capa.jpg");
+    
+font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    z-index: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 630px;
+}   
+header h1{
+    font-size: 50px;
+}
+header p{
+    font-size: 20px;
+}
+.botao-baixar{
+    
+    justify-self: center;
+    background-color: rgb(59, 59, 233);
+    width: 140px;
+    align-self: center;
+    text-align: center;
+    padding: 13px 13px 13px 13px;
+    border-radius: 7px;
+}
+main{
+    background-color: aliceblue;
+    padding: 20px;
+}
+.main-container01{
+    padding: 20px 20px 20px 110px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.main-block{
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    width: 250px;
+}
+.titu{
+    display: flex;
+}
+.main-container02{
+    
+    
+    padding: 20px 20px 20px 110px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.main-block01{
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(133, 130, 130);
+    width: 250px;
+    border-radius: 7px;
+}
