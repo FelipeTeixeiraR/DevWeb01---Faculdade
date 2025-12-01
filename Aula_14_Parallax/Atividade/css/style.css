@@ -1,0 +1,83 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    font-family: Lato ;
+    color: black;
+}
+
+.parallax1{
+    position: relative;
+    background-image:url("../img/Decoração.jpg");
+    height: 100%;
+    background-attachment: fixed;/*fixa a imagem que permite q os outros elementos da imagem rolem*/
+    background-position: center;/*posiciona a imagem de forma centralizada mesmo que o navegagor seja redimensionado*/
+    background-repeat: no-repeat; /*caso a tela seja maior que a imagem n permitira que a imgem seja repetida*/
+    background-size: cover;/*redimenciona a imagem de forma que ocupe a area visivel da tela mantendo a proporção*/
+}
+
+.caption{
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.caption span.border{
+    /**altera as caracteriasticas do tesxto : cor de fundo , cor de texto , espaçamento e tamanho da forte e espaçamento entre caracteres*/
+    background-color: red;
+    border: solid yellow 5px;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.box1{
+    background-color: rgb(243, 243, 63);
+     text-align: justify;
+     padding: 30px 100px;
+     text-align: center;
+     font-size: 25px;
+     border: red solid 20px;
+}
+
+.parallax2{
+    position: relative;
+    background-image:url("../img/Conteudo.jpg");
+    height: 100%;
+    background-attachment: fixed;/*fixa a imagem que permite q os outros elementos da imagem rolem*/
+    background-position: center;/*posiciona a imagem de forma centralizada mesmo que o navegagor seja redimensionado*/
+    background-repeat: no-repeat; /*caso a tela seja maior que a imagem n permitira que a imgem seja repetida*/
+    background-size: cover;/*redimenciona a imagem de forma que ocupe a area visivel da tela mantendo a proporção}*/
+}
+
+.box2{
+    color: white;
+    background-color: red;
+     text-align: justify;
+     padding: 30px 100px;
+     text-align: center;
+     font-size: 25px;
+     border: rgb(243, 243, 63) solid 20px;
+}
+    
+.parallax3{
+    position: relative;
+    background-image:url("../img/Inicio.jpg");
+    height: 100%;
+    background-attachment: fixed;/*fixa a imagem que permite q os outros elementos da imagem rolem*/
+    background-position: center;/*posiciona a imagem de forma centralizada mesmo que o navegagor seja redimensionado*/
+    background-repeat: no-repeat; /*caso a tela seja maior que a imagem n permitira que a imgem seja repetida*/
+    background-size: cover;/*redimenciona a imagem de forma que ocupe a area visivel da tela mantendo a proporção}*/
+}
+
+.box3{
+     background-color: rgb(243, 243, 63);
+     text-align: justify;
+     padding: 30px 100px;
+     text-align: center;
+     font-size: 25px;
+     border: red solid 20px;
+}
+   
